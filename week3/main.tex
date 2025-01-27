@@ -1,0 +1,60 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Welcome to Overleaf --- just edit your LaTeX on the left,
+% and we'll compile it for you on the right. If you open the
+% 'Share' menu, you can invite other users to edit at the same
+% time. See www.overleaf.com/learn for more info. Enjoy!
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass{article}
+\usepackage[
+backend=biber,
+style=ieee,
+]{biblatex}
+\title{Annotated Bibliography}
+\addbibresource{sample.bib} %Imports bibliography file
+
+\begin{document}
+
+\maketitle
+
+All citations are in IEEE Style, as I want some foray into writing academic papers in
+the computer science field.
+
+
+% A brief annotation (150-200 words) which does all four of the following:
+% Identifies the purpose/s of the source (What change do you think the author hoped would happen when people read this source?) 
+% Explains who you think the intended audience of the source is, and why you think this
+% Explains some key strengths of the source and how it can be useful as you investigate your topic
+% Explains possible limitations or weaknesses you see in the source
+% (eg. credibility, scope of information, author bias, etc.) Keep in mind
+% that you might have to do a little additional research to get some other
+% perspectives on your source to evaluate its reliability (eg. book reviews,
+% author bios, original publication dates etc.)
+
+\section{Book}
+
+Citation: \cite{stokes2021}
+Link: https://ucsc.primo.exlibrisgroup.com/permalink/01CDL_SCR_INST/15r5l0d/alma991025892758804876
+
+
+
+\section{Newspaper}
+
+Citation: \cite{thomas2024}
+Link: https://ucsc.primo.exlibrisgroup.com/permalink/01CDL_SCR_INST/ojisf2/cdi_proquest_newspapers_2937453324
+
+\section{Paper}
+
+Citation: \cite{ma2024}
+Link: https://ucsc.primo.exlibrisgroup.com/permalink/01CDL_SCR_INST/ojisf2/cdi_ieee_primary_10440501
+
+\section{Video}
+
+Citation: \cite{bloomberglaw2023}
+Link: https://www.youtube.com/watch?v=bRqwTP2eKJY
+
+\medskip
+
+\printbibliography
+\end{document}
